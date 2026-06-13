@@ -70,10 +70,18 @@ export default function ResourcesPage() {
             title="Future resources can include slides, interviews, videos, and white papers."
             text="Only approved public media should be added. Do not upload controlled technical information, internal slides, customer content, or proprietary project imagery."
           />
-          <IMG_2428.heic
-            label="PLACEHOLDER: Approved presentation, interview, or conference video thumbnail needed"
-            aspect="wide"
-          />
+          import Image from "next/image";
+
+          <div className="relative aspect-[4/5] overflow-hidden border border-white/10 bg-carbon shadow-panel">
+            <Image
+              src="/media/matthew-parker-headshot.webp"
+              alt="Matthew Parker"
+              fill
+              sizes="(min-width: 1024px) 45vw, 100vw"
+              className="object-cover"
+              priority
+              />
+          </div>
         </div>
       </section>
     </>
