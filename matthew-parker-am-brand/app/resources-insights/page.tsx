@@ -70,7 +70,7 @@ export default function ResourcesPage() {
             title="Future resources can include slides, interviews, videos, and white papers."
             text="Only approved public media should be added. Do not upload controlled technical information, internal slides, customer content, or proprietary project imagery."
           />
-          <MediaPlaceholder
+          <IMG_2428.heic
             label="PLACEHOLDER: Approved presentation, interview, or conference video thumbnail needed"
             aspect="wide"
           />
