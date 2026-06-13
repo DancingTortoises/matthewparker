@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Approved AM equipment image placeholder</title>
+  <desc id="desc">Placeholder image for approved additive manufacturing equipment media.</desc>
+  <rect width="1600" height="900" fill="#03070d"/>
+  <rect width="1600" height="900" fill="#111821"/>
+  <g stroke="#d9e0e8" stroke-opacity=".07">
+    <path d="M0 100h1600M0 200h1600M0 300h1600M0 400h1600M0 500h1600M0 600h1600M0 700h1600M0 800h1600"/>
+    <path d="M100 0v900M200 0v900M300 0v900M400 0v900M500 0v900M600 0v900M700 0v900M800 0v900M900 0v900M1000 0v900M1100 0v900M1200 0v900M1300 0v900M1400 0v900M1500 0v900"/>
+  </g>
+  <rect x="260" y="190" width="1080" height="480" fill="#1c2631" stroke="#8fb4d9" stroke-opacity=".42" stroke-width="3"/>
+  <rect x="360" y="280" width="360" height="300" fill="#03070d" stroke="#8fb4d9" stroke-opacity=".28"/>
+  <rect x="820" y="280" width="300" height="300" fill="#03070d" stroke="#8fb4d9" stroke-opacity=".28"/>
+  <circle cx="1240" cy="350" r="42" fill="#8fb4d9" fill-opacity=".22"/>
+  <circle cx="1240" cy="470" r="42" fill="#b58b5a" fill-opacity=".22"/>
+  <rect x="220" y="710" width="1160" height="96" fill="#03070d" fill-opacity=".82" stroke="#8fb4d9" stroke-opacity=".35"/>
+  <text x="800" y="752" text-anchor="middle" fill="#8fb4d9" font-family="Arial, sans-serif" font-size="22" letter-spacing="5">APPROVED MEDIA REQUIRED</text>
+  <text x="800" y="790" text-anchor="middle" fill="#f5f7f9" font-family="Arial, sans-serif" font-size="30" font-weight="700">AM equipment image placeholder</text>
+</svg>

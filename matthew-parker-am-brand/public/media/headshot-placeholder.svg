@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1500" viewBox="0 0 1200 1500" role="img" aria-labelledby="title desc">
+  <title id="title">Approved professional headshot placeholder</title>
+  <desc id="desc">Placeholder image for an approved Matthew Parker professional headshot.</desc>
+  <rect width="1200" height="1500" fill="#03070d"/>
+  <path d="M0 0h1200v1500H0z" fill="#111821"/>
+  <g stroke="#d9e0e8" stroke-opacity=".08">
+    <path d="M0 120h1200M0 240h1200M0 360h1200M0 480h1200M0 600h1200M0 720h1200M0 840h1200M0 960h1200M0 1080h1200M0 1200h1200M0 1320h1200"/>
+    <path d="M120 0v1500M240 0v1500M360 0v1500M480 0v1500M600 0v1500M720 0v1500M840 0v1500M960 0v1500M1080 0v1500"/>
+  </g>
+  <circle cx="600" cy="560" r="170" fill="#1c2631" stroke="#8fb4d9" stroke-opacity=".45" stroke-width="3"/>
+  <path d="M300 1160c55-210 190-320 300-320s245 110 300 320" fill="#1c2631" stroke="#8fb4d9" stroke-opacity=".45" stroke-width="3"/>
+  <rect x="120" y="1230" width="960" height="150" fill="#03070d" fill-opacity=".82" stroke="#8fb4d9" stroke-opacity=".35"/>
+  <text x="600" y="1295" text-anchor="middle" fill="#8fb4d9" font-family="Arial, sans-serif" font-size="24" letter-spacing="5">APPROVED MEDIA REQUIRED</text>
+  <text x="600" y="1344" text-anchor="middle" fill="#f5f7f9" font-family="Arial, sans-serif" font-size="34" font-weight="700">Professional headshot placeholder</text>
+</svg>
