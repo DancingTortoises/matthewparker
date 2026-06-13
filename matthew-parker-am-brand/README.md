@@ -11,8 +11,8 @@ This is a personal executive brand site for Matthew Parker, not an official Hadr
 3. Layout strategy: answer who Matthew is immediately, then move through credibility, expertise, qualification depth, speaking topics, resources, advisory positioning, and contact.
 4. Color strategy: dark navy, black, charcoal, white, silver, muted blue, industrial gray, and subtle metallic accents.
 5. Typography strategy: strong modern sans-serif headings with compact tracking and readable body copy.
-6. Photo placement strategy: no AI-generated images and no fake AM imagery. Missing assets use clearly labeled placeholders.
-7. Conversion strategy: primary routes are Contact Matthew, Explore Expertise, Invite Matthew to Speak, Start a Conversation, email, LinkedIn, form, and Calendly placeholder.
+6. Photo placement strategy: use the approved Matthew Parker headshot, Nikon AM Synergy collage, and printed-part image.
+7. Conversion strategy: primary routes are Contact Matthew, Explore Expertise, Invite Matthew to Speak, Start a Conversation, email, LinkedIn, and form.
 8. Compliance strategy: content avoids confidential, proprietary, ITAR-controlled, CUI, export-controlled, customer-sensitive, company-sensitive, and process-parameter information.
 
 ## Site Map
@@ -36,12 +36,10 @@ This is a personal executive brand site for Matthew Parker, not an official Hadr
 - `SectionHeader`: consistent section hierarchy.
 - `ButtonLink`: protocol-safe CTA button.
 - `MediaImage`: reusable `next/image` wrapper for approved site media.
-- `MediaPlaceholder`: fallback component for future sections that still need approved media.
 - `CredibilityBand`: current role, company context, location, brand identity.
 - `ExpertiseCard`: explanation, why it matters, and practical outcome.
-- `ResourceCard`: placeholder articles, technical notes, white papers, presentations, videos, insights.
+- `ResourceCard`: insight themes, technical notes, white papers, presentations, videos, and industry insights.
 - `ContactForm`: structured inquiry form that opens a prefilled email to `matthew@printaero.com`.
-- `CalendlyPlaceholder`: scheduling placeholder.
 - `Card`: reusable industrial panel.
 - `StructuredData`: JSON-LD helper.
 
@@ -70,7 +68,7 @@ The content avoids generic AM hype and focuses on production credibility: machin
 - Trust Indicators: current role, prior leadership, standards familiarity, production-readiness expertise.
 - Service / Expertise Pages: full expertise, qualification, advisory, speaking, and resource pages.
 - SEO: natural target-keyword usage, metadata per page, sitemap, robots, schema.
-- Contact Experience: form opens a prefilled email to `matthew@printaero.com`, plus email link, LinkedIn, inquiry type dropdown, Calendly placeholder, and no public phone.
+- Contact Experience: form opens a prefilled email to `matthew@printaero.com`, plus email link, LinkedIn, inquiry type dropdown, and no public phone.
 - Review / Credibility Integration: interpreted as credibility indicators for a personal expert site.
 
 ## Folder Structure
@@ -171,24 +169,7 @@ Current approved assets:
 2. `public/media/nikon-am-synergy-collage.png`: speaking and thought leadership page.
 3. `public/media/printed-part-upright.jpeg`: resources and insights page, displayed with `object-contain` to avoid forced crop or stretch.
 
-For future assets:
-
-1. Add optimized images to `public/media/`.
-2. Use `MediaImage` or `next/image`.
-3. Use descriptive, compliance-safe alt text.
-4. Keep image sizes lean for performance.
-
-## Missing Asset Recommendations
-
-- Additional approved executive/facility-neutral portrait.
-- Additional approved AM equipment image.
-- Additional approved speaking engagement photo.
-- Approved presentation or conference media.
-- Approved conference video or interview thumbnail.
-- Approved downloadable resources or white papers.
-- Approved Calendly or scheduling link.
-- Final production domain.
-- Optional backend email/CRM integration if Matthew wants server-side sending later.
+For new approved assets, add optimized images to `public/media/`, use `MediaImage` or `next/image`, write descriptive compliance-safe alt text, and keep image sizes lean for performance.
 
 ## SEO Metadata
 
@@ -220,19 +201,17 @@ Estimated score: 93/100.
 | Mobile Friendliness | 10 | Responsive grids, mobile CTA bar, accessible navigation, mobile-first layout. |
 | Page Speed | 10 | No real media payloads yet, no animation libraries, lightweight component structure. |
 | Design Quality | 10 | Serious dark industrial visual system, premium hierarchy, restrained motion/style. |
-| CTA Strength | 9 | Clear contact, advisory, speaking, LinkedIn, email, and form paths; scheduling link pending. |
-| Photography & Visuals | 8 | Correctly avoids unapproved media and labels placeholders; real approved assets needed. |
+| CTA Strength | 9 | Clear contact, advisory, speaking, LinkedIn, email, and form paths. |
+| Photography & Visuals | 9 | Approved headshot, Nikon AM Synergy collage, and printed-part image are integrated. |
 | Trust Indicators | 10 | Current role, prior leadership, standards familiarity, production-readiness expertise, and technical depth integrated. |
 | Service / Expertise Pages | 10 | Required expertise, qualification, speaking, resources, advisory, and contact pages included. |
 | SEO | 9 | Metadata, schema, sitemap, robots, target keywords, semantic structure; final domain needed. |
-| Contact Experience | 9 | Form opens a prefilled email with the visitor's details, includes inquiry dropdown, email, LinkedIn, Calendly placeholder, and no public phone. |
+| Contact Experience | 9 | Form opens a prefilled email with the visitor's details, includes inquiry dropdown, email, LinkedIn, and no public phone. |
 | Review / Credibility Integration | 8 | Personal-brand credibility indicators are strong; approved testimonials, publications, or media would improve score. |
 
 Recommendations to reach 95-100:
 
-- Add approved professional media and replace placeholders with optimized `next/image`.
 - Add approved public speaking videos, interviews, publications, and white papers.
-- Add a real Calendly or scheduling workflow if approved.
 - Add an approved server-side email, CRM, or intake workflow later if Matthew wants messages sent without opening the visitor's email client.
 - Replace `https://www.example.com` metadata base with the production domain.
 - Add approved testimonials or third-party credibility references if available and compliant.

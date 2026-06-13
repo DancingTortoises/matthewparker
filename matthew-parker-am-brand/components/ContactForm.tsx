@@ -88,7 +88,6 @@ export function ContactForm() {
           name="message"
           rows={6}
           className="border border-white/10 bg-void px-4 py-3 text-frost"
-          placeholder="Briefly describe the discussion, event, advisory need, or opportunity. Do not include confidential, export-controlled, customer-sensitive, or proprietary information."
         />
       </label>
 

@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Resources & Insights | Matthew Parker",
     description:
-      "Placeholder resource hub for articles, technical notes, white papers, presentations, videos, and industry insights."
+      "Insights on AM qualification, production readiness, powder traceability, and aerospace and defense AM strategy."
   }
 };
 
@@ -24,7 +24,7 @@ export default function ResourcesPage() {
       <PageHero
         eyebrow="Resources and insights"
         title="A resource hub for AM qualification, production readiness, and executive decision-making."
-        text="This page is structured for future articles, technical notes, white papers, presentations, videos, and industry insights."
+        text="Matthew's public insight themes focus on qualification, production readiness, customer confidence, powder traceability, and executive AM decision-making."
         primaryHref="/contact"
         primaryLabel="Discuss a Resource"
         secondaryHref="/speaking-thought-leadership"
@@ -34,7 +34,7 @@ export default function ResourcesPage() {
       <section className="bg-graphite">
         <div className="mx-auto grid max-w-site gap-12 px-5 py-20 lg:grid-cols-[0.85fr_1.15fr] lg:items-start">
           <SectionHeader
-            eyebrow="Resource structure"
+            eyebrow="Resource formats"
             title="Educational content without AM hype or controlled detail."
             text="Each resource should help executives and technical teams think more clearly about qualification, readiness, and scale while staying within public, compliance-safe boundaries."
           />
@@ -51,9 +51,9 @@ export default function ResourcesPage() {
       <section className="bg-void">
         <div className="mx-auto max-w-site px-5 py-20">
           <SectionHeader
-            eyebrow="Initial topics"
-            title="Planned resource cards."
-            text="These cards should become full articles, downloadable resources, approved presentation material, or videos once reviewed for confidentiality and compliance."
+            eyebrow="Insight themes"
+            title="Public themes for qualification and production readiness."
+            text="These topics summarize the conversations Matthew is positioned to support through articles, technical education, presentations, interviews, and executive briefings."
           />
           <div className="mt-10 grid gap-5 lg:grid-cols-3">
             {resources.map((resource) => (
@@ -66,9 +66,9 @@ export default function ResourcesPage() {
       <section className="border-t border-white/10 bg-carbon">
         <div className="mx-auto grid max-w-site gap-12 px-5 py-20 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
           <SectionHeader
-            eyebrow="Approved media"
-            title="Future resources can include slides, interviews, videos, and white papers."
-            text="Only approved public media should be added. Do not upload controlled technical information, internal slides, customer content, or proprietary project imagery."
+            eyebrow="Printed-part context"
+            title="Production credibility comes from proving the system around the part."
+            text="This image supports Matthew's focus on moving metal AM from successful builds to controlled, repeatable, evidence-backed production capability."
           />
           <MediaImage
             src="/media/printed-part-upright.jpeg"

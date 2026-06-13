@@ -1,7 +1,5 @@
 import type { Metadata } from "next";
-import { CalendlyPlaceholder } from "@/components/CalendlyPlaceholder";
 import { ContactForm } from "@/components/ContactForm";
-import { MediaImage } from "@/components/MediaImage";
 import { PageHero } from "@/components/PageHero";
 import { SectionHeader } from "@/components/SectionHeader";
 import { profile } from "@/lib/data";
@@ -13,7 +11,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Contact Matthew Parker",
     description:
-      "Contact form, email, LinkedIn, and scheduling placeholder for AM qualification and production-readiness conversations."
+      "Contact form, email, and LinkedIn for AM qualification and production-readiness conversations."
   }
 };
 
@@ -51,26 +49,9 @@ export default function ContactPage() {
                   linkedin.com/in/1mparker
                 </a>
               </div>
-              <CalendlyPlaceholder />
             </div>
           </div>
           <ContactForm />
-        </div>
-      </section>
-
-      <section className="bg-void">
-        <div className="mx-auto grid max-w-site gap-12 px-5 py-20 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
-          <SectionHeader
-            eyebrow="Approved media"
-            title="A professional headshot can make this page more personal without becoming casual."
-            text="Use an approved professional image only. Do not include unapproved company facility, project, customer, or controlled technical imagery."
-          />
-          <MediaImage
-            src="/media/matthewparker-headshot-enhanced.jpeg"
-            alt="Matthew Parker professional headshot"
-            aspect="square"
-            sizes="(min-width: 1024px) 34vw, 100vw"
-          />
         </div>
       </section>
     </>

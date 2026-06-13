@@ -29,6 +29,5 @@ npx vercel
 ## Before Launch
 
 - Replace `https://www.example.com` in `app/layout.tsx`, `app/sitemap.ts`, and `app/robots.ts` with the production domain.
-- Replace media placeholders with approved images only.
-- Add a real Calendly link if approved.
+- Use only approved public images in `public/media`.
 - Decide whether the contact form should stay as `mailto:` or use a server-side email/CRM integration.

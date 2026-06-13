@@ -9,7 +9,7 @@ Current approved assets in use:
 - `nikon-am-synergy-collage.png`: Nikon AM Synergy collage used on the speaking and thought leadership page.
 - `printed-part-upright.jpeg`: Correctly oriented browser-safe JPEG converted from `IMG_2428.heic`, used on the resources and insights page without forced crop or stretch.
 
-Recommended future filenames:
+Recommended filenames for additional approved assets:
 
 - `matthew-parker-headshot.webp`
 - `matthew-parker-speaking.webp`

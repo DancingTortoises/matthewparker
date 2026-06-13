@@ -15,7 +15,7 @@ export function ResourceCard({ type, title, description }: ResourceCardProps) {
       </h3>
       <p className="mt-4 leading-7 text-silver/66">{description}</p>
       <p className="mt-7 font-mono text-xs uppercase tracking-[0.2em] text-ash">
-        Placeholder resource
+        Public insight theme
       </p>
     </Card>
   );

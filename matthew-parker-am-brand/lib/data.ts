@@ -268,13 +268,13 @@ export const resources = [
     type: "Presentation",
     title: "Building AM Capabilities That Survive Audit Scrutiny",
     description:
-      "A future presentation structure for customer and auditor readiness in high-consequence AM environments."
+      "A public presentation theme for customer and auditor readiness in high-consequence AM environments."
   },
   {
     type: "Video",
     title: "Executive Briefing: Making Metal AM Credible",
     description:
-      "Placeholder for approved conference videos, interviews, or recorded educational sessions."
+      "An executive briefing theme for conference, interview, and educational conversations."
   }
 ];
 
@@ -299,14 +299,6 @@ export const inquiryTypes = [
   "Industry Collaboration",
   "Media / Interview",
   "Other"
-];
-
-export const mediaPlaceholders = [
-  "PLACEHOLDER: Approved professional headshot needed",
-  "PLACEHOLDER: Approved AM equipment image needed",
-  "PLACEHOLDER: Approved speaking engagement photo needed",
-  "PLACEHOLDER: Approved facility or team photo needed",
-  "PLACEHOLDER: Approved presentation or conference media needed"
 ];
 
 export const complianceBoundaries = [
